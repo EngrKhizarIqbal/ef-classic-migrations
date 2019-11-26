@@ -26,7 +26,7 @@ namespace EFClasicTest
                         Name = "0123456789"
                     });
 
-                    //context.SaveChanges();
+                    context.SaveChanges();
                 }
                 catch (Exception ex)
                 {
