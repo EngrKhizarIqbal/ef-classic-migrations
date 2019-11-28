@@ -74,10 +74,6 @@
       <Project>{f71400f7-793c-4df2-b418-0b8e9664cd1b}</Project>
       <Name>EF6Context</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EntitiesConfigurations\EntitiesConfigurations.csproj">
-      <Project>{64b7dc60-d2b8-4445-b069-16b01437234d}</Project>
-      <Name>EntitiesConfigurations</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{df5f5f5d-12e7-4c60-b573-77cb7be9f6ab}</Project>
       <Name>Entities</Name>
