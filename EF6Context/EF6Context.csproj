@@ -58,6 +58,11 @@
   <ItemGroup>
     <Compile Include="CustomerConfiguration.cs" />
     <Compile Include="EFContextForEF6.cs" />
+    <Compile Include="Migrations\201911281249194_InitialMigration.cs" />
+    <Compile Include="Migrations\201911281249194_InitialMigration.Designer.cs">
+      <DependentUpon>201911281249194_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebUserConfiguration.cs" />
   </ItemGroup>
@@ -70,6 +75,11 @@
       <Project>{df5f5f5d-12e7-4c60-b573-77cb7be9f6ab}</Project>
       <Name>Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201911281249194_InitialMigration.resx">
+      <DependentUpon>201911281249194_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
